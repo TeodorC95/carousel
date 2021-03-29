@@ -30,8 +30,10 @@ img {
   -o-border-radius: 50%;
 }
 .container {
+  position: relative;
   min-width: 400px;
   width: 50vw;
+  height: 400px;
   margin: 0 auto;
   background-color: honeydew;
   border-radius: 10px;
@@ -45,4 +47,15 @@ img {
 }
 .slide {
   padding: 1rem;
+  position: absolute;
+}
+.btnContainer {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
