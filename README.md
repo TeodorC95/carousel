@@ -1,2 +1,4 @@
 # carousel
- Carousel
+
+Carousel
+A simiple carousel project
