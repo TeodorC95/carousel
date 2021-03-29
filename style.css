@@ -5,3 +5,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: gainsboro;
+}
+h1 {
+  padding: 2rem;
+}
+hr {
+  width: 10%;
+  height: 3px;
+  margin: 0 auto;
+  color: darkcyan;
+  background-color: darkcyan;
+  margin-bottom: 3rem;
+}
+img {
+  width: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.container {
+  min-width: 400px;
+  width: 50vw;
+  margin: 0 auto;
+}
